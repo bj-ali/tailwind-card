@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss basics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-700">
+    <h1 class="text-center text-3xl text-white font-bold mt-12">Todos Application </h1>
+    <form class="bg-white p-4 m-12 w-[500px] m-auto mt-8">
+       <div class="flex justify-between items-center">
+        <div class="input-controller ]">
+            <input type="text" placeholder="enter your tasks here...." class=" w-[350px] p-2 rounded-lg outline-none border-2 border-gray-200">
+        </div>
+       <div class="submit">
+        <input type="submit" class="bg-green-600 px-4 h-9 rounded-lg">
+       </div> 
+       </div>
+       <div class="tasks bg-gray-100 hover:bg-gray-900 hover:text-white transition rounded-lg cursor-pointer mt-2 flex justify-between p-2">
+        <div class="title">Hello World Tasks here</div>
+        <div class="trash">🗑️</div>
+       </div>
+    </form>
+</body>
+</html>
